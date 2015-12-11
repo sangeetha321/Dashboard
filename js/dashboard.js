@@ -1,4 +1,4 @@
-angular.module('myApp', []).
+angular.module('barChart', []).
 
 directive('barsChart', function ($parse) {
  
@@ -26,5 +26,5 @@ directive('barsChart', function ($parse) {
 });
 
 function Ctrl($scope) {
- $scope.myData = [10,20,30,40,60, 80, 20, 50];
+ $scope.val = [10,20,30,40,60, 80, 20, 50];
 }
