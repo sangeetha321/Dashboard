@@ -15,7 +15,7 @@ directive('barsChart', function ($parse) {
       //in the HTML mark-up
       replace: false,
       //our data source would be an array
-      //passed thru chart-data attribute
+      //passed through chart-data attribute
       scope: {data: '=chartData'},
       link: function (scope, element, attrs) {
         //in D3, any selection[0] contains the group
